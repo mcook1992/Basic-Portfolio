@@ -42,6 +42,12 @@ body {
   top: 10px;
   right: 0px;
 }
+
+a:hover {
+  background-color: aquamarine;
+  text-decoration: underline;
+}
+
 .grayBackground {
   background-color: #dddddd;
   height: 100%;
@@ -125,12 +131,13 @@ Portfolio
 .portfolioImages {
   max-height: 275px;
   max-width: 275px;
-  margin: 5px 10px;
 }
 
 .portfolioImagesWithWords {
   display: inline-block;
   position: relative;
+
+  margin: 10px 10px;
 }
 
 .portfolioContainer {
@@ -145,12 +152,12 @@ Portfolio
   position: absolute;
   font-size: 30px;
   color: white;
-  width: 230px;
-  left: 10px;
+  width: 100%;
   bottom: 0px;
   z-index: 5;
   text-align: center;
   margin-bottom: 20px;
+  padding: 0px;
 }
 /* Contact Page*/
 
